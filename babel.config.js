@@ -5,7 +5,7 @@ module.exports = {
       'module-resolver',
       {
         cwd: 'babelrc',
-        root: ['./src'],
+        root: ['./src', "./"],
         extensions: [
           '.ios.ts',
           '.android.ts',
